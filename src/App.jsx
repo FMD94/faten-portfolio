@@ -235,8 +235,7 @@ Type "help" to see available commands.`)
        </ul>
 
       <p>Computer Science Graduate</p>
-      <p>Scroll or type <code>help</code> to explore</p>
-
+      <p>Type <code>help</code> to initialize</p>
       <pre>{output}</pre>
 
     {activeProject === "rasid" && (
