@@ -6,6 +6,11 @@ A terminal-inspired developer portfolio built to showcase my projects, technical
 
 ---
 
+
+![FATEN SYSTEMS Portfolio](./public/portfolio-preview.png)
+
+---
+
 ## About the Portfolio
 
 FATEN SYSTEMS is an interactive personal portfolio designed around a retro CRT terminal interface.
