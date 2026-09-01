@@ -1,0 +1,77 @@
+main {
+  padding: 40px;
+  min-height: 100vh;
+}
+.crt-screen {
+
+margin: auto;
+border: 2px solid #ffb000;
+width: 100%;
+max-width: 1000px;
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 0 5px #ffb000;
+position: relative;
+}
+
+.crt-screen::after {  /*invisible pseudo-element that exists purely through CSS*/
+  content: "";
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+  rgba(0, 0, 0, 0.25) 2px,
+  rgba(0, 0, 0, 0.25) 4px
+  );
+}
+
+
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  caret-color: #ffb000;
+  font-family: inherit;
+  font-size: inherit;
+  flex: 1;
+  padding: 0;
+}
+
+.terminal-prompt {
+  display: flex;
+  gap: 15px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.contact-links a,
+.resume-link a,
+.project-link a {
+  color: inherit;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.contact-links a:hover,
+.resume-link a:hover,
+.project-link a:hover {
+  text-decoration: underline;
+}

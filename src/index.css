@@ -1,0 +1,11 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-color: #0a0906;
+  color: #ffb000;
+  font-family: Consolas, monospace;
+  text-shadow: 0 0 5px #ffb000;
+}
